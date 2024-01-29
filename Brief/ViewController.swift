@@ -33,7 +33,7 @@ class ViewController: UIViewController {
                         case .failure(let error):
                             self?.showAlert(message: "Error fetching weather data: \(error.localizedDescription)")
                             
-                            
+                            print("Added branch")
                         }
                     }
                 }
